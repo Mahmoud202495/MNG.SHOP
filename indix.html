@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNG.SHOP</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="MNG.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Start Top-bar  -->
+    <div class="Topbar">
+        <div class="container-fluid p-0">
+            <div class="row ">
+                <div class="col-lg-6 d-none d-lg-block px-5">
+                    <div class="d-inline-flex align-items-center h-100">
+                        <a class="me-3" href="#">About</a>
+                        <a class="me-3" href="#">Contact</a>
+                        <a class="me-3" href="#">Help</a>
+                        <a class="me-3" href="#">FAQs</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end px-5">
+                    <div class="d-inline-flex align-items-center">
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="main-btn dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My Account
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item" href="#">Sign in</a></li>
+                                <li><a class="dropdown-item" href="#">Sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn-group mx-2" role="group">
+                        <button id="btnGroupDrop1" type="button" class="main-btn dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                            <li><a class="dropdown-item" href="#">CAD</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="main-btn dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">FR</a></li>
+                            <li><a class="dropdown-item" href="#">AR</a></li>
+                            <li><a class="dropdown-item" href="#">Ru</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-inline-flex align-items-center d-block d-lg-none">
+                        <a href="#" class="px-0 me-2">
+                            <i class="fa-solid fa-heart text-dark"></i>
+                            <span class="badge text-dark">0</span>
+                        </a>
+                        <a href="#" class="px-0 me-2">
+                            <i class="fa-solid fa-cart-shopping text-dark"></i>
+                            <span class="badge text-dark">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center px-5 py-2 px-lg-5 d-none d-lg-flex bg-white">
+                <div class="col-lg-4 p-0">
+                    <a href="#" class="brand text-decoration-none">
+                        <span class="brand-1 h1 text-uppercase px-2 fw-bold">MNG </span>
+                        <span class="h1 text-uppercase px-2 fw-bold ml-n1">Shop</span>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-6 text-left">
+                    <form class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for products....">
+                        <span class="input-group-text bg-transparent">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-6 text-end">
+                    <p class="text-black-50 m-0">Customer Service</p>
+                    <h5 class="m-0 fw-medium">+012 345 6789</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Top-bar-->
+
+    <!--start Navbar  -->
+    <section class="top-bar px-lg-5 px-2 py-0 sticky-top">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-3 d-none d-lg-block p-0 ">
+                    <div class="nav-item dropdown ">
+                        <a class="nav-link min-btn dropdown-toggle d-flex align-items-center justify-content-between w-100 p-2 p-lg-3 "
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h6 class="fw-bold"><i class="fa-solid fa-bars me-2"></i>Categories</h6>
+                        </a>
+                        <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Dresses</a></li>
+                            <li><a href="#" class="dropdown-item">Shirts</a></li>
+                            <li><a href="#" class="dropdown-item">Jeans</a></li>
+                            <li><a href="#" class="dropdown-item">Swimwear</a></li>
+                            <li><a href="#" class="dropdown-item">Sleepwear</a></li>
+                            <li><a href="#" class="dropdown-item">Jumpsuits</a></li>
+                            <li><a href="#" class="dropdown-item">Blazers</a></li>
+                            <li><a href="#" class="dropdown-item">Jackets</a></li>
+                            <li><a href="#" class="dropdown-item">Shoes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 px-lg-0">
+                    <nav class="navbar navbar-expand-lg  py-2 py-lg-0 px-0">
+                        <a href="#" class="brand text-decoration-none d-block d-lg-none">
+                            <span class="brand-1 h1 text-uppercase px-2 fw-bold">MNG </span>
+                            <span class="h1 text-uppercase px-2 fw-bold ml-n1">Shop</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto p-4 p-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-uppercase p-2 p-lg-3" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase p-2 p-lg-3" href="shop.htmll">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase p-2 p-lg-3" href="detail.html">Shop Detail</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-2 p-lg-3" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a href="cart.html" class="dropdown-item">Shopping Cart</a></li>
+                                        <li><a href="quote.html" class="dropdown-item">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase p-2 p-lg-3" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="icon me-auto d-none d-lg-block">
+                            <a href="#">
+                                <i class="fa-solid fa-heart me-2"></i>
+                                <span class="badge bg-secondary">0</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping me-2"></i>
+                                <span class="badge bg-secondary">0</span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Navbar-->
+    <!--Start Carousel -->
+    <section class="Carousel  pt-4 px-lg-4">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-lg-8 pb-3">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="max-height: 375px;">
+                                <img src="img/carousel-1.jpg" class="d-block w-100">
+                                <div class="carousel-caption ">
+                                    <h5>Men Fashion</h5>
+                                    <p class="mb-0 d-none d-md-block">Some representative placeholder content for the
+                                        first slide.</p>
+                                    <a class="main-btn mt-md-3" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="max-height: 375px;">
+                                <img src="img/carousel-2.jpg" class="d-block w-100" alt="#">
+                                <div class="carousel-caption ">
+                                    <h5>Women Fashion</h5>
+                                    <p class="mb-0 d-none d-md-block">Some representative placeholder content for the
+                                        second slide.</p>
+                                    <a class="main-btn mt-md-3" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="max-height: 375px;">
+                                <img src="img/carousel-3.jpg" class="d-block w-100" alt="#">
+                                <div class="carousel-caption ">
+                                    <h5>Kids Fashion</h5>
+                                    <p class="mb-0 d-none d-md-block">Some representative placeholder content for the
+                                        third slide.</p>
+                                    <a class="main-btn mt-md-3" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-3">
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <div class="product-offer mb-3" style="max-height: 180px;">
+                                <img class="img-fluid w-100" src="img/offer-1.jpg" alt="#">
+                                <div class="offer-text text-white m-0">
+                                    <h6 class="text-uppercase">Save 20%</h6>
+                                    <h3 class="mb-1 mb-md-3">Special Offer</h3>
+                                    <a href="#" class="main-btn">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="product-offer mb-3" style="max-height: 180px;">
+                                <img class="img-fluid w-100" src="img/offer-2.jpg" alt="#">
+                                <div class="offer-text text-white m-0">
+                                    <h6 class="text-uppercase">Save 20%</h6>
+                                    <h3 class="mb-1 mb-md-3">Special Offer</h3>
+                                    <a href="" class="main-btn">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--End Carousel-->
+    <!-- Start Feature -->
+    <section class="Feature p-5">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="icon-text d-flex align-items-center bg-white mb-4">
+                        <i class="fa-solid fa-check fa-2x fw-bold me-3"></i>
+                        <h5 class="fw-bold m-0">Quality Product</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="icon-text d-flex align-items-center bg-white mb-4">
+                        <i class="fa-solid fa-truck-fast fa-2x fw-bold me-3"></i>
+                        <h5 class="fw-bold m-0">Free Shipping</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="icon-text d-flex align-items-center bg-white mb-4 ">
+                        <i class="fa-solid fa-right-left fa-2x fw-bold me-3"></i>
+                        <h5 class="fw-bold m-0">14-Day Return</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="icon-text d-flex align-items-center bg-white mb-4">
+                        <i class="fa-solid fa-phone-volume fa-2x fw-bold me-3"></i>
+                        <h5 class="fw-bold m-0">24/7 Support</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Featured-->
+    <!-- start Categories -->
+    <section class="Categories pb-5 px-5">
+        <div class="container-fluid">
+            <h2 class="section-title text-uppercase fw-bold position-relative mb-4"><span class="pe-3">Categories</span>
+            </h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-1.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-2.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-3.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-4.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-2.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-1.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-4.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-3.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-4.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-3.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-2.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <a class="oll-itme" href="#">
+                        <div class="item d-flex align-items-center mb-4">
+                            <div class="img-Product">
+                                <img class="img-fluid w-100" src="img/cat-1.jpg" alt="#">
+                            </div>
+                            <div class="title ps-3">
+                                <h6 class="fw-bold">Category Name</h6>
+                                <p class="text-black-50">100 Products</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Categories -->
+    <!-- start Products -->
+    <section class="Products pb-5 px-5">
+        <div class="container-fluid">
+            <h2 class="section-title text-uppercase fw-bold position-relative mb-4"><span class="pe-3">Featured
+                    Products</span>
+            </h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-item bg-white mb-4">
+                        <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                            <div class="product-action">
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-regular fa-heart"></i></a>
+                                <a class="main-btn me-1" href=""><i class="fa-solid fa-rotate"></i></a>
+                                <a class="main-btn me-0" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="oll-text-icon text-center py-4">
+                            <a class="h6 fw-bold" href="">Product Name Goes Here</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$123.00</h5>
+                                <h6 class=" ms-2"><s>$123.00</s></h6>
+                            </div>
+                            <div class="icon-star d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <i class="fa-solid fa-star me-1"></i>
+                                <p class="m-0">(99)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Products -->
+    <!--Start  Offer-->
+    <section class="Offer  px-5">
+        <div class="container-fluid">
+            <div class="row px-xl-5">
+                <div class="col-md-6 mb-3">
+                    <div class="product-offer mb-30">
+                        <img class="img-fluid" src="img/offer-1.jpg" alt="">
+                        <div class="offer-text text-white m-0">
+                            <h6 class="text-uppercase">Save 20%</h6>
+                            <h3 class="mb-1 mb-md-3">Special Offer</h3>
+                            <a href="#" class="main-btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="product-offer mb-30">
+                        <img class="img-fluid" src="img/offer-2.jpg" alt="">
+                        <div class="offer-text text-white m-0">
+                            <h6 class="text-uppercase">Save 20%</h6>
+                            <h3 class="mb-1 mb-md-3">Special Offer</h3>
+                            <a href="#" class="main-btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End  Offer -->
+    <!-- Footer Start -->
+    <footer class="Footer mt-5 pt-5 ">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed
+                        dolor.
+                        Rebum tempor no vero est magna amet no</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item d-flex  ">
+                        <h4 class="text-light mb-4">My Account</h4>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Home</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Our Shop</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Shop Detail</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Shopping Cart</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Checkout</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item ">
+                        <h4 class="text-light mb-4">Quick Links</h4>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>About Us</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Our Services</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Terms & Condition</a>
+                        <a href="#">
+                            <i class="fa fa-angle-right me-2"></i>Support</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">News letter</h4>
+                    <p>Duo stet tempor ipsum sit amet magna ipsum tempor est.</p>
+                    <form class="position-relative mx-auto mb-2">
+                        <input type="email" class="input-text" placeholder="Your Email">
+                        <button class="main-btn py-2 position-absolute top-0 end-0 mt-2 me-2"
+                            type="submit">SignUp</button>
+                    </form>
+                    <ul class="Media d-flex list-unstyled gap-3 pt-2">
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border-top copyright p-3  text-light">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 ps-lg-5">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end  pe-lg-5">
+                        Designed By <a href="#">moo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <span>
+        <a href="indix.html" class="main-btn-back-to-top "><i class="fa-solid fa-arrow-up"></i></a>
+    </span>
+
+
+    <!-- script -->
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="all.min.js"></script>
+</body>
+
+</html>
